@@ -17,13 +17,12 @@ div{
 }
 
 .header{
-    height:400px;
     text-align: center;
     
 }
 .header>img{
     margin: 0 auto;
-    width:400px;
+    width:600px;
 }
 
 .content {
