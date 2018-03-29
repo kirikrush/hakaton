@@ -24,6 +24,11 @@ div {
     clear: both;
 }
 
+h1{
+    background-color: darkslateblue;
+    color: white;
+    margin-top:40px;
+}
 .header {
     text-align: center;
 
@@ -43,7 +48,7 @@ div {
 .nav li{
     display: inline-block;
     font-family: 'Amatic SC', cursive;
-    font-size: 24px;
+    font-size: 36px;
 
 }
 
@@ -56,7 +61,6 @@ div {
     font-weight: bold;
     width: 100%;
     color: #fff;
-    padding-top: 40px;
 }
 
 .item h1 {
@@ -73,10 +77,10 @@ div {
     margin: 0 5px;
 }
 
-.item img {
+.item img, .item iframe {
     width: 100%;
     position: relative;
-    top: 4px;
+    top: 45px;
 }
 
 .item:nth-child(2n) {
@@ -107,6 +111,7 @@ div {
     font-family: 'Poiret One', cursive;
     padding-left:10px;
     font-weight:bold;
+    font-size: 24px;
 }
 
 
@@ -145,23 +150,21 @@ input[type=submit] {
     font-family:  'Poiret One', cursive;
 }
 
-.profile ul{
-    text-align: left;
-}
 
-.profile ul{
+.profile ul, .services ul{
     padding-right:20px;
     list-style-type: none;
     border:solid 1px black;
     background-color:#c6a799;
+    text-align: left;
 }
 
-.profile h1{
+.profile h1, .services h1, .task h1{
     font-family:  'Amatic SC', cursive;
     font-size: 68px;
 }
 
-.profile ul li{
+.profile ul li, .services ul li{
     font-family:  'Poiret One', cursive;
     font-size: 34px;
     margin:10px 0;
@@ -171,4 +174,51 @@ input[type=submit] {
 .profile ul li img{
     border-radius: 30%;
     opacity: 0.8;
+}
+
+
+.settings form{
+    display: block;
+    float:left;
+    clear: both;
+}
+
+.settings form input{
+    display: block;
+    width:450px;
+    height:30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left:20px;
+    font-family:    'Amatic SC', cursive;
+    font-size:24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.active .iframe{
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: block;
+    float:right;
+}
+
+.task h1{
+    margin-left:20px;
+    background-color: none;
+    font-size: 24px;
+}
+
+.task progress{
+    width:500px;
+    margin-left: 20px;
+    height:50px;
+    margin:10px 0;
+    display: block;
+}
+
+.task span{
+    font-family:   'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight:bold;
 }
