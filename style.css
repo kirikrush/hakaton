@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+/*body{
+    background-image: url(img/background.jpg)
+}*/
+
+div{
+    position: relative;
+    clear: both;
+}
+
+.header{
+    height:400px;
+    text-align: center;
+    
+}
+.header>img{
+    margin: 0 auto;
+    width:400px;
+}
+
+.content {
+    height: 5000px;
+    text-align: center;
+}
+.item{
+    background-color: cadetblue;
+    font-weight: bold;
+    width: 100%;
+    color:#fff;
+}
+
+.item h1{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 68px;
+}
+.item p{
+    margin:15px 0;
+    font-family: 'Poiret One', cursive;
+    margin-top 10px;
+    font-size:34px;
+}
+
+.item img{
+    width:100%;
+}
+
+.item:nth-child(2n){
+    background-color: dimgray;
+    
+}
+
