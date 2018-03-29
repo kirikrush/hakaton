@@ -7,9 +7,9 @@
     margin:0;
 }
 
-/*body{
-    background-image: url(img/background.jpg)
-}*/
+body{
+    background-color:#c6a7ff;
+}
 
 div{
     position: relative;
@@ -26,7 +26,6 @@ div{
 }
 
 .content {
-    height: 5000px;
     text-align: center;
 }
 .item{
@@ -46,6 +45,7 @@ div{
     font-family: 'Poiret One', cursive;
     margin-top 10px;
     font-size:34px;
+    margin: 0 5px;
 }
 
 .item img{
@@ -57,3 +57,34 @@ div{
     
 }
 
+.footer{
+    border-top:2px solid black;
+    height: 80px;
+    text-align: left;
+    font-size: 24px;
+    padding-top:30px;
+    padding-left:10px;
+}
+
+.registration h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 68px;
+}
+
+.registration form input{
+    display:block;
+    margin:20px 0;
+    margin-left:40%;
+    height:30px;
+    width:400px;
+    font-family: 
+}
+
+.registration input[type=submit]{
+    background-color: red;
+    width:200px;
+    border-radius: 30%;
+    margin-left:45%;
+    font-family:'Poiret One', cursive;
+    color:white;
+}
