@@ -1,102 +1,124 @@
-
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic');
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-body{
-    background-color:#c6a7ff;
+body {
+    background-color: #c6a7ff;
 }
 
-div{
+div {
     position: relative;
     clear: both;
 }
 
-.header{
+.header {
     text-align: center;
-    
+
 }
-.header>img{
+
+.header > img {
     margin: 0 auto;
-    width:600px;
+    width: 600px;
 }
 
 .content {
     text-align: center;
 }
-.item{
+
+.item {
     background-color: cadetblue;
     font-weight: bold;
     width: 100%;
-    color:#fff;
+    color: #fff;
+    padding-top: 40px;
 }
 
-.item h1{
+.item h1 {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     font-size: 68px;
 }
-.item p{
-    margin:15px 0;
+
+.item p {
+    margin: 15px 0;
     font-family: 'Poiret One', cursive;
     margin-top 10px;
-    font-size:34px;
+    font-size: 34px;
     margin: 0 5px;
 }
 
-.item img{
-    width:100%;
+.item img {
+    width: 100%;
+    position: relative;
+    top: 2px;
 }
 
-.item:nth-child(2n){
+.item:nth-child(2n) {
     background-color: dimgray;
-    
+
 }
 
-.footer{
-    border-top:2px solid black;
+.footer {
+    border-top: 2px solid black;
     height: 80px;
     text-align: left;
     font-size: 24px;
-    padding-top:30px;
-    padding-left:10px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
-.registration h1{
+.registration h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 68px;
 }
 
-.registration form input{
-    display:block;
-    margin:20px 0;
-    margin-left:40%;
-    height:30px;
-    width:400px;
-    font-family: 
+.registration form input {
+    display: block;
+    margin: 20px 0;
+    margin-left: 40%;
+    height: 30px;
+    width: 400px;
+    font-family:
 }
 
-button{
+button {
     background-color: red;
-    width:200px;
-    height:30px;
+    width: 200px;
+    height: 30px;
     border-radius: 30%;
-    margin-left:5%;
-    font-family:'Poiret One', cursive;
-    color:white;
+    margin-left: 5%;
+    font-family: 'Poiret One', cursive;
+    color: white;
 }
 
-@media screen and (max-width:800px){
-    .item h1{
-    font-size: 88px;
-}
-.item p{
+@media screen and (max-width:800px) {
+    .item h1 {
+        font-size: 88px;
+    }
+    .item p {
 
-    font-size:54px;
+        font-size: 54px;
 
-}
+    }
+    .registration h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 68px;
+    }
+
+    .registration form input {
+        width: 100%;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    button {
+        margin-left: 0;
+        width: 99%;
+        font-size: 24px;
+    }
+
 }
