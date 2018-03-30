@@ -288,3 +288,46 @@ input[type=submit] {
     background-color:darkslateblue; 
     margin-bottom: 10px;
 }
+
+.ext_item{
+    width:100%
+}
+.ext_item img{
+    width:50%;
+}
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 48px;
+    font-weight:bold;
+}
+
+.ext_item a{
+    font-family: 'Poiret One', cursive;;
+    font-size: 46px;
+}
+
+.ext_item span{
+    opacity: 0.5;
+}
+
+.pay{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.pay input{
+    display: block;
+    margin:20px;
+    width:450px;
+    height:35px;
+    
+}
+
+.pay input[type="radio"]{
+    display: inline;
+}
+
+.pay span{
+    display: inline-block;
+    width:150opx;
+}
