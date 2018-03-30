@@ -97,7 +97,7 @@ h1{
     padding-left: 10px;
 }
 
-.registration h1 {
+ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 68px;
 }
@@ -221,4 +221,70 @@ input[type=submit] {
     font-family:   'Amatic SC', cursive;
     font-size: 24px;
     font-weight:bold;
+}
+
+.achieve_list ul{
+    text-align: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.achieve_list ul li{
+    margin: 10px 0;
+    font-family:   'Poiret One', cursive;
+    font-size: 42px;
+}
+
+.achieve_list ul li{
+    opacity: 0.5;
+}
+.achieve_list ul .ok{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.achieve_list img{
+    height:20px;
+}
+
+.bonus_items{ 
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.b_item{
+    display:block;
+    margin:10px auto;
+}
+.b_item img{
+    width:300px;
+    height:200px;
+}
+
+.b_item p, span{
+    font-family:'Poiret One', cursive;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.b_item button{
+    width:150px;
+    height:50px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    background-image: url("img/background.jpg");
+    color:white;
+}
+
+.bonus_topic{
+    padding:10px;
+    color:white;
+    height:50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 46px;
+    background-color:darkslateblue; 
+    margin-bottom: 10px;
 }
