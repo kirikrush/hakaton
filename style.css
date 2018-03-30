@@ -143,6 +143,10 @@ input[type=submit] {
         font-size: 18px;
         margin-left: 0;
     }
+    
+    .nav{
+        font-size:54px;
+    }
 
 }
 
@@ -261,12 +265,14 @@ input[type=submit] {
 .b_item img{
     width:300px;
     height:200px;
+    border-radius:20%;
 }
 
 .b_item p, span{
     font-family:'Poiret One', cursive;
     font-size:24px;
     font-weight: bold;
+    max-width:300px;
 }
 
 .b_item button{
@@ -302,7 +308,7 @@ p{
 }
 
 .ext_item a{
-    font-family: 'Poiret One', cursive;;
+    font-family: 'Poiret One', cursive;
     font-size: 46px;
 }
 
@@ -320,6 +326,8 @@ p{
     margin:20px;
     width:450px;
     height:35px;
+    font-family: 'Poiret One', cursive;
+    font-size:24px;
     
 }
 
@@ -330,4 +338,27 @@ p{
 .pay span{
     display: inline-block;
     width:150opx;
+}
+
+select{
+    width:450px;
+    height: 35px;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
+textarea{
+    width:450px;
+    height:200px;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    margin:20px 0;
+}
+
+.pay input[type="submit"]{
+    background-color: darkorchid;
+}
+
+.content>img{
+    width:100%;
 }

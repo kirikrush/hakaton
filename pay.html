@@ -17,15 +17,25 @@
         </ul>
     </div>
     <div class="content">
-        <form action="" class="pay">
+        <form action="thanks.html" class="pay">
             <h1>Заполните анкету на регистрацию рекламы</h1>
-            <input type="text" placeholder="Название организации">
-            <select>
-              <option>Пункт 1</option>
-              <option>Пункт 2</option>
+            <input type="text" placeholder="Название организации" required="required">
+            <input type="text" placeholder="Адрес" required="required">
+            <select required="required">
+              <option>Магазин</option>
+              <option>Сеть питания</option>
+              <option value="">Служба такси</option>
+              <option value="">Муниципальная служба</option>
+              <option value="">Отель/хостел</option>
+              <option value="">Другое</option>
             </select>
-            <input type="text">
-            <input type="text">
+            <input type="number" placeholder="Срок рекламы(дней)" required="required">
+            <select required="required">
+              <option>Обычная реклама</option>
+              <option value="">Расширенная реклама</option>
+            </select>
+            <textarea placeholder="Прочая информация по Вашей рекламе"></textarea>
+            <input type="submit" value="Отправить заявку">
         </form>
     </div>
     <div class="footer">
